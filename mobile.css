@@ -12,10 +12,19 @@
 	display: none;
 }
 
+/* Saco estilos predeterminados al botón */
+.nav button{
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+
 .nav-mobile{
 	position: absolute;
 	right: 30px;
 	max-width: 400px;
+	min-width: 300px;
 	display: none;
 	
 	list-style-type: none;
